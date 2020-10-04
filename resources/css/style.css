@@ -1,0 +1,30 @@
+#cookie-law{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    left: 0;
+    z-index: 9999;
+    visibility: hidden;
+
+}
+
+.close-cookie-banner{
+    background-color:#606b6c !important;
+    padding: 10px;
+    color: white !important;
+    text-decoration: none;
+    box-shadow: 10px;
+    border-radius: 3px;
+    margin-left: 10px;
+    position: relative;
+    top: 6px;
+}
+
+.close-cookie-banner:hover{
+    background-color:#353232 !important;
+    color: white !important;
+   
+}

@@ -1,0 +1,16 @@
+{% set placeholderText = config("CookieLaw.placeholder.text")%}
+{% set privacyLink = config("CookieLaw.privacyLink.text")%}
+{% set color = config("CookieLaw.customColor.text")%}
+
+
+<link rel="stylesheet" type="text/css" href="{{plugin_path("CookieLaw")}}/css/style.css">
+
+<div id = "cookie-law" style = "background-color:{{color}};">
+<p>{{placeholderText}}
+<a href="/{{privacyLink}}" rel="nofollow" title="Privacy &amp; Cookies Policy">Datenschutzerklärung</a>
+.<a class="close-cookie-banner" href="javascript:void(0);" onclick="removeMe();">
+<span>Einverstanden</span></a>
+</p>
+</div>
+
+<script src="{{plugin_path("CookieLaw")}}/js/script.js"></script>

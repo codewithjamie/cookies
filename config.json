@@ -1,0 +1,35 @@
+{
+  "formatVersion": 1,
+  "menu": {
+      "Config.ConfigSettingsTab": {
+          "label": "Config.ConfigSettingsTab",
+          "formFields": {
+              "placeholder.text": {
+                  "type": "inputTextArea",
+                  "required": false,
+                  "label": "Config.placeholderTextLabel",
+                  "options": {
+                      "defaultValue": "Our website uses cookies.By continuing we assume your permission to deploy cookies, as detailed in our"
+                  }
+              },
+              "privacyLink.text": {
+                  "type": "inputText",
+                  "required": false,
+                  "label": "Config.privacyLinkTextLabel",
+                  "options": {
+                      "defaultValue": "#"
+                  }
+              },
+              "customColor.text": {
+                "type": "colorPicker",
+                "required": false,
+                "label": "Config.colorTextLabel",
+                "options": {
+                    "defaultValue": "#c1e6ff"
+                }
+            }
+              
+          }
+      }
+  }
+}

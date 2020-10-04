@@ -1,0 +1,21 @@
+{
+  "name"              :"CookieLaw",
+  "description"       :"Auf den Einsatz von Cookies muss nicht mehr verzichtet werden. Rechtssicheres einbinden von Marketing, Livechat sowie Analyse scripten.Rechtsicheres Einbinden von Facebook pixel, Google Analytics und vieles mehr.",                   
+  "namespace"         :"CookieLaw",
+  "version"           : "1.2.0",
+  "pluginIcon"        : "icon_plugin_sm.png",
+  "authorIcon"        : "icon_author_xs.png",
+  "type"              :"template",
+  "require"           : [],
+  "serviceProvider"   :"CookieLaw\\Providers\\CookiesServiceProvider",
+  "dataProviders"     :
+  [
+    {
+      "key":"CookieLaw\\Containers\\CookiesContainer",
+      "name":"CookieLaw",
+      "description":"Cookie Notice for GDPR",
+      "defaultLayoutContainer": "Ceres::Template.Style"
+    }
+  ]
+}
+
